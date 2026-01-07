@@ -10,6 +10,16 @@
   font-optical-sizing: auto;
 }
 
+/* share style */
+
+.head p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+            /* main style */
+
 header{
     background-image: url("../images/banner/banner1.png");
     width: 100%;
@@ -50,4 +60,58 @@ nav .banner .btn{
     border-radius: 5px;
     color: #ffffff;
     background-color: #F15B22;
+}
+
+.main{
+    padding-top: 136px;
+}
+
+.main .container{
+    width: 67%;
+    max-width: 1072px;
+    display: flex;
+    align-items: center;
+    gap: 87px;
+    margin: 0 206px 0 322px;
+}
+
+.img .round {
+    position: absolute;
+    margin: 195px 18px 0 23px ;
+    width: 527px;
+    height: 527px;
+    background-color: #FCDED3;
+    border-radius: 50%;
+    z-index: -1;
+}
+.container .text h2{
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px ;
+}
+
+.container .text .infos{
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 14px;
+}
+
+.text .icon{
+    width: 349px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.text .icon i{
+    color: #16D887;
+    
+
+
+}
+
+.text .icon .info{
+    margin-left: 10px;
+
+    
 }
