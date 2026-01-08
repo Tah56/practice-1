@@ -115,3 +115,40 @@ nav .banner .btn{
 
     
 }
+
+#my-plans{
+    padding-top:130px ;
+    border: 1px solid red;
+    text-align: center;
+}
+
+#my-plans h2{
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 50px;
+}
+
+#my-plans .skill{
+    width: 71%;
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    gap: 86px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+.skill .skill-box img{
+    margin-bottom: 24px;
+}
+
+.skill .skill-box h3{
+    font-size: 30px;
+    color: #151414;
+    margin-bottom: 16px;
+}
+.skill .skill-box p{
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
+}
