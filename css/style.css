@@ -12,6 +12,13 @@
 
 /* share style */
 
+.img-btn{
+   padding: 20px 36px;
+   border: none;
+   border-radius: 5px;
+   font-weight: bold;
+   color: #F15B22;
+}
 .head p{
     font-size: 16px;
     line-height: 26px;
@@ -164,7 +171,7 @@ nav .banner .btn{
 }
 
 .image .img-bar .img-text{
-    width: 459px;
+    max-width: 459px;
 }
 
 .img-bar .img-text h2{
@@ -173,10 +180,63 @@ nav .banner .btn{
     margin-bottom: 24px;
 }
 
-.img-bar .img-text .img-btn{
-    padding: 20px 36px;
-    border: none;
+
+footer{
+    background-color: #151414;
+    padding: 130px 0;
+}
+footer .footer-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer-container .feture{
+    max-width: 485px;
+}
+footer .footer-container .suscribe{
+    max-width: 325px;
+}
+
+.footer-container .feture h2{
+    font-size: 45px;
+    color:#F8F8F8;
+    margin-bottom: 16px;
+}
+.footer-container .feture p{
+    font-size: 16px;
+    line-height: 26px ;
+    color: #ffffff;
+    margin-bottom: 24px;
+}
+
+.footer-container .feture .links{
+    max-width: 175px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.suscribe{
+    max-width: 325px;
+}
+.footer-container .suscribe h2{
+    font-size: 25px;
+    font-size: 600;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.footer-container .suscribe input[type="email"]{
+    max-width:  325px;
+    background-color: transparent;
+    padding: 21px 158px 21px 21px;
+    margin-bottom:16px ;
+    font-size: 18px;
+    border: 1px solid #f3f3f3;
+    color: #ffffff;
     border-radius: 5px;
-    font-weight: bold;
-    color: #F15B22;
+    outline: none;
+    display: block;
 }
