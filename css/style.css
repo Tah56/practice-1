@@ -150,3 +150,33 @@ nav .banner .btn{
     font-weight: 500;
     color: #737272;
 }
+
+.image{
+    padding: 130px 0;
+}
+.image .img-bar{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    background: url("/images/gradient2.png"),url("/images/watch.png");
+    border-radius: 8px;
+    padding: 59px 0px 59px 64px;
+}
+
+.image .img-bar .img-text{
+    width: 459px;
+}
+
+.img-bar .img-text h2{
+    font-size: 40px;
+    color: #ffffff;
+    margin-bottom: 24px;
+}
+
+.img-bar .img-text .img-btn{
+    padding: 20px 36px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #F15B22;
+}
